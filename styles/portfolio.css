@@ -15,7 +15,7 @@
  nav {
      display: flex;
      justify-content: space-between;
-     margin: 50px 200px;
+     padding: 50px 200px;
  }
 
  nav li {
@@ -76,6 +76,27 @@
      background-image: url(../images/header_bg.png), url(../images/developer.png);
      background-repeat: no-repeat;
      background-position: bottom right, left;
+ }
+
+ .crnt-contact {
+    box-sizing: border-box;
+     border: 1px solid #FD6E0A;
+     border-radius: 5px;
+     width: 180px;
+     height: 65px;
+     left: 484px;
+     top: 608px;
+     padding: 19px 23px 18px 24px;
+     font-style: normal;
+font-weight: 800;
+font-size: 20px;
+
+text-align: center;
+color: #FD6E0A;
+
+margin-left: 30px;
+
+
  }
 
  /* main section styles */
@@ -196,33 +217,39 @@
 
  }
 
-.resume-button{
-        margin-top: 50px;
-        text-align: center;
-}
-/* contact styles */
-.contact{
-    display: flex;
-    gap: 100px;
-    background: #FFF8F3;
-    padding-top: 130px;
-    padding-bottom: 130px;
-    padding-right: 200px;
-    padding-left: 200px;
-}
-.contact .section-title{
-    text-align: left;
-}
+ .resume-button {
+     margin-top: 50px;
+     text-align: center;
+ }
 
-.contact input[type="text"], input[type="email"],textarea{
-    margin-bottom: 24px;
-    border: 0;
-    width: 100%;
-    padding: 18px 30px;
-}
-.contact a{
-    text-decoration: none;
-}
-input{
-    height: 64px;
-}
+ /* contact styles */
+ .contact {
+     display: flex;
+     gap: 100px;
+     background: #FFF8F3;
+     padding-top: 130px;
+     padding-bottom: 130px;
+     padding-right: 200px;
+     padding-left: 200px;
+ }
+
+ .contact .section-title {
+     text-align: left;
+ }
+
+ .contact input[type="text"],
+ input[type="email"],
+ textarea {
+     margin-bottom: 24px;
+     border: 0;
+     width: 100%;
+     padding: 18px 30px;
+ }
+
+ .contact a {
+     text-decoration: none;
+ }
+
+ input {
+     height: 64px;
+ }
